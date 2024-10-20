@@ -1,0 +1,53 @@
+{
+  "name": "dashdocfrontends",
+  "version": "0.0.1",
+  "engines": {
+    "npm": ">=10.0.0",
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev-tms": "dotenv -- turbo run dev",
+    "dev-tms-staging": "dotenv -- turbo run dev",
+    "build-tms": "turbo run build --summarize",
+    "test-tms": "turbo run test",
+    "lint-tms": "turbo run lint",
+    "lint-tms:fix": "turbo run lint:fix",
+    "build-storybook": "turbo run build-storybook",
+    "storybook": "turbo run storybook",
+    "clean": "turbo daemon clean"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.3"
+  },
+  "workspaces": [
+    "docs",
+    "apps/*",
+    "packages/*"
+  ],
+  "prettier": {
+    "printWidth": 99,
+    "tabWidth": 4,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "bracketSpacing": false,
+    "overrides": [
+      {
+        "files": [
+          "*.yml",
+          "*.yaml"
+        ],
+        "options": {
+          "tabWidth": 2
+        }
+      },
+      {
+        "files": [
+          "*.html"
+        ],
+        "options": {
+          "parser": "none"
+        }
+      }
+    ]
+  }
+}

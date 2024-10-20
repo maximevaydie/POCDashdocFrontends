@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormGroup renders correctly with children 1`] = `
+<div
+  className="form-group   css-1f978ju"
+>
+  <div
+    className=""
+  >
+    <input
+      className="form-control"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`FormGroup renders correctly with error 1`] = `
+<div
+  className="form-group  has-error css-1f978ju"
+>
+  <div
+    className=""
+  >
+    <input
+      className="form-control"
+      type="text"
+    />
+    <span
+      className="help-block"
+    >
+      this is a test error
+    </span>
+  </div>
+</div>
+`;
+
+exports[`FormGroup renders correctly with label 1`] = `
+<div
+  className="form-group   css-1f978ju"
+>
+  <label
+    className="control-label col-sm-4 "
+  >
+    This is a helpful label
+  </label>
+  <div
+    className=" col-sm-6"
+  >
+    <input
+      className="form-control"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`FormGroup renders correctly with no cols 1`] = `
+<div
+  className="form-group   css-1f978ju"
+>
+  <div
+    className=""
+  >
+    <input
+      className="form-control"
+      type="text"
+    />
+  </div>
+</div>
+`;

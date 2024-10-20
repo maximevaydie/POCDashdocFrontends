@@ -1,0 +1,450 @@
+{
+    "uid": "0d9ae1b0-38df-11e9-b68c-0242ac110007",
+    "sequential_id": 216728,
+    "created": "2019-02-25T09:23:46.882751Z",
+    "updated": "2019-02-25T09:23:48.985833Z",
+    "remote_id": "",
+    "price": null,
+    "carrier_reference": "carrier_reference",
+    "carrier_address": {
+        "pk": 1987355,
+        "address": "SOLUTRANS",
+        "city": "Lyon",
+        "postcode": "69002",
+        "country": "FR",
+        "company": {
+            "pk": 55708,
+            "name": "Transports Ouaki",
+            "phone_number": "1256789",
+            "email": "Arthur@dashdoc.eu",
+            "siren": "",
+            "trade_number": "",
+            "vat_number": "",
+            "settings": {
+                "signature_process": "sign_on_glass",
+                "cmr_only": true,
+                "print_mode": false,
+                "special_agreements": "",
+                "contract_html": "<p><em><strong>hello ! super test</strong></em></p>",
+                "stamp": null,
+                "logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/e95e5329-9607-491a-9f96-f21c4a6ffd55.png",
+                "eta_mode": "trucker_notification"
+            }
+        },
+        "latitude": null,
+        "longitude": null,
+        "coords_validated": false
+    },
+    "created_by": {
+        "pk": 55708,
+        "name": "Transports Ouaki",
+        "settings_contract_html": "<p><em><strong>hello ! super test</strong></em></p>",
+        "settings_logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/e95e5329-9607-491a-9f96-f21c4a6ffd55.png",
+        "settings_print_mode": false
+    },
+    "created_device": null,
+    "creation_method": "",
+    "is_order": false,
+    "archived_by": [],
+    "invite_code": "RMDKQZ",
+    "deliveries": [
+        {
+            "uid": "0deb2f4c-38df-11e9-bc6e-0242ac110007",
+            "sequential_id": 242620,
+            "remote_id": "",
+            "tracking_id": "0DEB37-BE38DF",
+            "origin": {
+                "uid": "0db41cb6-38df-11e9-bdd8-0242ac110007",
+                "address": {
+                    "pk": 1987363,
+                    "address": "2 avenue de la fayette",
+                    "city": "Poitiers",
+                    "postcode": "86000",
+                    "country": "FR",
+                    "company": {
+                        "pk": 89245,
+                        "name": "Feu vert",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": 46.5740557,
+                    "longitude": 0.3733861,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "Feu vert ref",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "155108659412488IPMp65",
+                "address": {
+                    "pk": 1987364,
+                    "address": "691, chemin de Legros",
+                    "city": "Sainte LucasVille",
+                    "postcode": "41460",
+                    "country": "France",
+                    "company": {
+                        "pk": 56662,
+                        "name": "Dumas (Exemple)"
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "Dumas ref",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 1987365,
+                "address": "Mayenne",
+                "city": "Le Mans",
+                "postcode": "72000",
+                "country": "FR",
+                "company": {
+                    "pk": 109225,
+                    "name": "Laktalis",
+                    "settings_contract_html": "",
+                    "settings_logo": null,
+                    "settings_print_mode": false
+                },
+                "latitude": 48.0095966,
+                "longitude": 0.1699955,
+                "coords_validated": false
+            },
+            "planned_loads": [
+                {
+                    "uid": "0df6bfae-38df-11e9-93fa-0242ac110007",
+                    "remote_id": "",
+                    "description": "Second load",
+                    "weight": "10000",
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "pallet_format": "",
+                    "volume": "",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "",
+                    "quantity": 5,
+                    "category": "pallets",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "tracking_contacts": [],
+            "shipper_reference": "shipper_reference",
+            "origin_loads": [],
+            "destination_loads": [],
+            "multiple_rounds": false,
+            "is_cancelled": false
+        },
+        {
+            "uid": "0dcfcd7e-38df-11e9-9ab1-0242ac110007",
+            "sequential_id": 242619,
+            "remote_id": "",
+            "tracking_id": "0DCFD0-DC38DF",
+            "origin": {
+                "uid": "15510865941248N6iLq2k",
+                "reference": "Truckfly ref",
+                "address": {
+                    "pk": 1987360,
+                    "address": "30 rue Chapon",
+                    "city": "Paris",
+                    "postcode": "75003",
+                    "country": "FR",
+                    "company": {
+                        "pk": 51783,
+                        "name": "Truckfly Démonstration",
+                        "settings_contract_html": "",
+                        "settings_logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/d3118056-e1b1-45e1-972c-07f9946b5b33.jpg",
+                        "settings_print_mode": false
+                    },
+                    "latitude": 48.8638252,
+                    "longitude": 2.3552995,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "155108659412488IPMp65",
+                "reference": "Dumas ref",
+                "address": {
+                    "pk": 1987364,
+                    "address": "691, chemin de Legros",
+                    "city": "Sainte LucasVille",
+                    "postcode": "41460",
+                    "country": "France",
+                    "company": {
+                        "pk": 56662,
+                        "name": "Dumas (Exemple)"
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 1987362,
+                "address": "Mayenne",
+                "city": "Le Mans",
+                "postcode": "72000",
+                "country": "FR",
+                "company": {
+                    "pk": 109225,
+                    "name": "Laktalis",
+                    "settings_contract_html": "",
+                    "settings_logo": null,
+                    "settings_print_mode": false
+                },
+                "latitude": 48.0095966,
+                "longitude": 0.1699955,
+                "coords_validated": false
+            },
+            "planned_loads": [
+                {
+                    "uid": "0ddd243a-38df-11e9-9b49-0242ac110007",
+                    "remote_id": "",
+                    "description": "First load",
+                    "weight": "20",
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "pallet_format": "",
+                    "volume": "",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "",
+                    "quantity": 1,
+                    "category": "pallets",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "tracking_contacts": [],
+            "shipper_reference": "shipper_reference",
+            "origin_loads": [],
+            "destination_loads": [],
+            "multiple_rounds": false,
+            "is_cancelled": false
+        }
+    ],
+    "segments": [
+        {
+            "uid": "0dc35bc2-38df-11e9-a327-0242ac110007",
+            "remote_id": "",
+            "trucker": null,
+            "origin": {
+                "uid": "0db41cb6-38df-11e9-bdd8-0242ac110007",
+                "reference": "Feu vert ref",
+                "address": {
+                    "pk": 1987363,
+                    "address": "2 avenue de la fayette",
+                    "city": "Poitiers",
+                    "postcode": "86000",
+                    "country": "FR",
+                    "company": {
+                        "pk": 89245,
+                        "name": "Feu vert",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": 46.5740557,
+                    "longitude": 0.3733861,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "155108659412488IPMp65",
+                "reference": "Dumas ref",
+                "address": {
+                    "pk": 1987364,
+                    "address": "691, chemin de Legros",
+                    "city": "Sainte LucasVille",
+                    "postcode": "41460",
+                    "country": "France",
+                    "company": {
+                        "pk": 56662,
+                        "name": "Dumas (Exemple)"
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 1
+        },
+        {
+            "uid": "0db82e62-38df-11e9-95d8-0242ac110007",
+            "remote_id": "",
+            "trucker": null,
+            "origin": {
+                "uid": "15510865941248N6iLq2k",
+                "reference": "Truckfly ref",
+                "address": {
+                    "pk": 1987360,
+                    "address": "30 rue Chapon",
+                    "city": "Paris",
+                    "postcode": "75003",
+                    "country": "FR",
+                    "company": {
+                        "pk": 51783,
+                        "name": "Truckfly Démonstration",
+                        "settings_contract_html": "",
+                        "settings_logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/d3118056-e1b1-45e1-972c-07f9946b5b33.jpg",
+                        "settings_print_mode": false
+                    },
+                    "latitude": 48.8638252,
+                    "longitude": 2.3552995,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "0db41cb6-38df-11e9-bdd8-0242ac110007",
+                "reference": "Feu vert ref",
+                "address": {
+                    "pk": 1987363,
+                    "address": "2 avenue de la fayette",
+                    "city": "Poitiers",
+                    "postcode": "86000",
+                    "country": "FR",
+                    "company": {
+                        "pk": 89245,
+                        "name": "Feu vert",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": 46.5740557,
+                    "longitude": 0.3733861,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 0
+        }
+    ],
+    "status": "created",
+    "status_updates": [
+        {
+            "uid": "0d9fb740-38df-11e9-90fd-0242ac110007",
+            "created": "2019-02-25T09:23:46.894890Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "created",
+            "author": {
+                "display_name": "Arthur Ouaki",
+                "company": 55708,
+                "pk": 8908
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": null,
+            "transport": "0d9ae1b0-38df-11e9-b68c-0242ac110007",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        }
+    ],
+    "has_observations": false,
+    "messages": [],
+    "requested_vehicle": "",
+    "documents": [
+        {
+            "pk": 172652,
+            "file_updated_date": null,
+            "delivery": "0deb2f4c-38df-11e9-bc6e-0242ac110007",
+            "category": "cmr",
+            "name": "CMR",
+            "file": "https://www.dashdoc.eu/shipments/documents/0df5d350-38df-11e9-ae45-0242ac110007"
+        },
+        {
+            "pk": 172651,
+            "file_updated_date": null,
+            "delivery": "0dcfcd7e-38df-11e9-9ab1-0242ac110007",
+            "category": "cmr",
+            "name": "CMR",
+            "file": "https://www.dashdoc.eu/shipments/documents/0ddbdee4-38df-11e9-b8ef-0242ac110007"
+        }
+    ],
+    "volume_display_unit": "m3"
+}

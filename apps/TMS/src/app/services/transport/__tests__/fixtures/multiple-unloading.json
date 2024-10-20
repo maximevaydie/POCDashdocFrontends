@@ -1,0 +1,452 @@
+{
+    "uid": "530ef50a-3907-11e9-a9f3-4c32759a9ce3",
+    "sequential_id": 65,
+    "created": "2019-02-25T14:12:03.671706Z",
+    "updated": "2019-02-25T14:12:44.201488Z",
+    "remote_id": "",
+    "carrier_address": {
+        "pk": 680,
+        "address": "39 rue du caire",
+        "city": "Paris",
+        "postcode": "75003",
+        "country": "FR",
+        "company": {
+            "pk": 1,
+            "name": "Transports Ouaki",
+            "phone_number": "0123456789",
+            "email": "atipoulc@test.com",
+            "siren": "",
+            "trade_number": "999999999",
+            "vat_number": "FR14999999999",
+            "settings": {
+                "signature_process": "sign_on_glass",
+                "cmr_only": false,
+                "print_mode": false,
+                "special_agreements": "",
+                "contract_html": "TEST",
+                "stamp": null,
+                "logo": null
+            }
+        },
+        "latitude": null,
+        "longitude": null,
+        "coords_validated": false
+    },
+    "created_by": {
+        "pk": 1,
+        "name": "Transports Ouaki",
+        "settings_contract_html": "TEST",
+        "settings_logo": null,
+        "settings_print_mode": false
+    },
+    "created_device": null,
+    "creation_method": "",
+    "is_order": false,
+    "archived_by": [],
+    "invite_code": "RANZBW",
+    "price": null,
+    "carrier_reference": "carrier_reference",
+    "deliveries": [
+        {
+            "uid": "5867c694-3907-11e9-a9f3-4c32759a9ce3",
+            "sequential_id": 84,
+            "remote_id": "",
+            "tracking_id": "5867C9-143907",
+            "origin": {
+                "uid": "15511038671Ta2FwNW",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 688,
+                    "address": "Barbance",
+                    "city": "MOURJOU",
+                    "postcode": "15340",
+                    "country": "FR",
+                    "company": {
+                        "pk": 55,
+                        "name": "REVEL ROMAIN",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "558a917c-3907-11e9-a9f3-4c32759a9ce3",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 689,
+                    "address": "Maison Rouge",
+                    "city": "MOURJOU",
+                    "postcode": "15340",
+                    "country": "FR",
+                    "company": {
+                        "pk": 54,
+                        "name": "ROBERT André",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 690,
+                "address": "1 AVENUE PAUL OURLIAC -BP 83649",
+                "city": "TOULOUSE",
+                "postcode": "31000",
+                "country": "FR",
+                "company": {
+                    "pk": 40,
+                    "name": "CONTINENTAL AUTOMOTIVE"
+                },
+                "latitude": null,
+                "longitude": null,
+                "coords_validated": false
+            },
+            "planned_loads": [
+                {
+                    "uid": "59009a90-3907-11e9-a9f3-4c32759a9ce3",
+                    "remote_id": "",
+                    "description": "Second Load",
+                    "weight": "20000",
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "pallet_format": "",
+                    "volume": "",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "",
+                    "quantity": 1,
+                    "category": "pallets",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "tracking_contacts": [],
+            "shipper_reference": "shipper_reference",
+            "origin_loads": [],
+            "destination_loads": [],
+            "multiple_rounds": false,
+            "is_cancelled": false
+        },
+        {
+            "uid": "56c82144-3907-11e9-a9f3-4c32759a9ce3",
+            "sequential_id": 83,
+            "remote_id": "",
+            "tracking_id": "56C824-643907",
+            "origin": {
+                "uid": "15511038671Ta2FwNW",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 688,
+                    "address": "Barbance",
+                    "city": "MOURJOU",
+                    "postcode": "15340",
+                    "country": "FR",
+                    "company": {
+                        "pk": 55,
+                        "name": "REVEL ROMAIN",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "15511038671w0B10xX",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 686,
+                    "address": "La Comparnie",
+                    "city": "LEUCAMP",
+                    "postcode": "15120",
+                    "country": "FR",
+                    "company": {
+                        "pk": 53,
+                        "name": "GAEC DE LA COMPARNIE",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 687,
+                "address": "1 AVENUE PAUL OURLIAC -BP 83649",
+                "city": "TOULOUSE",
+                "postcode": "31000",
+                "country": "FR",
+                "company": {
+                    "pk": 40,
+                    "name": "CONTINENTAL AUTOMOTIVE"
+                },
+                "latitude": null,
+                "longitude": null,
+                "coords_validated": false
+            },
+            "planned_loads": [
+                {
+                    "uid": "57ba6968-3907-11e9-a9f3-4c32759a9ce3",
+                    "remote_id": "",
+                    "description": "First load",
+                    "weight": "1000",
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "pallet_format": "",
+                    "volume": "",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "",
+                    "quantity": 2,
+                    "category": "pallets",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "tracking_contacts": [],
+            "shipper_reference": "shipper_reference",
+            "origin_loads": [],
+            "destination_loads": [],
+            "multiple_rounds": false,
+            "is_cancelled": false
+        }
+    ],
+    "segments": [
+        {
+            "uid": "55b0cbc6-3907-11e9-a9f3-4c32759a9ce3",
+            "remote_id": "",
+            "trucker": null,
+            "origin": {
+                "uid": "15511038671w0B10xX",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 686,
+                    "address": "La Comparnie",
+                    "city": "LEUCAMP",
+                    "postcode": "15120",
+                    "country": "FR",
+                    "company": {
+                        "pk": 53,
+                        "name": "GAEC DE LA COMPARNIE",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "558a917c-3907-11e9-a9f3-4c32759a9ce3",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 689,
+                    "address": "Maison Rouge",
+                    "city": "MOURJOU",
+                    "postcode": "15340",
+                    "country": "FR",
+                    "company": {
+                        "pk": 54,
+                        "name": "ROBERT André",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 1
+        },
+        {
+            "uid": "54644fcc-3907-11e9-a9f3-4c32759a9ce3",
+            "remote_id": "",
+            "trucker": null,
+            "origin": {
+                "uid": "15511038671Ta2FwNW",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 688,
+                    "address": "Barbance",
+                    "city": "MOURJOU",
+                    "postcode": "15340",
+                    "country": "FR",
+                    "company": {
+                        "pk": 55,
+                        "name": "REVEL ROMAIN",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "15511038671w0B10xX",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 686,
+                    "address": "La Comparnie",
+                    "city": "LEUCAMP",
+                    "postcode": "15120",
+                    "country": "FR",
+                    "company": {
+                        "pk": 53,
+                        "name": "GAEC DE LA COMPARNIE",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 0
+        }
+    ],
+    "status": "created",
+    "status_updates": [
+        {
+            "uid": "5390ecea-3907-11e9-a9f3-4c32759a9ce3",
+            "created": "2019-02-25T14:12:04.107618Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "created",
+            "author": {
+                "display_name": "Arthur Ouaki",
+                "company": 1,
+                "pk": 1
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": null,
+            "transport": "530ef50a-3907-11e9-a9f3-4c32759a9ce3",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        }
+    ],
+    "has_observations": false,
+    "messages": [],
+    "requested_vehicle": "",
+    "documents": [
+        {
+            "pk": 85,
+            "file_updated_date": null,
+            "delivery": "56c82144-3907-11e9-a9f3-4c32759a9ce3",
+            "category": "ldv",
+            "name": "National bill of lading",
+            "file": "http://127.0.0.1:8000/shipments/documents/57a0df20-3907-11e9-a9f3-4c32759a9ce3"
+        },
+        {
+            "pk": 86,
+            "file_updated_date": null,
+            "delivery": "5867c694-3907-11e9-a9f3-4c32759a9ce3",
+            "category": "ldv",
+            "name": "National bill of lading",
+            "file": "http://127.0.0.1:8000/shipments/documents/58f5e2da-3907-11e9-a9f3-4c32759a9ce3"
+        }
+    ],
+    "volume_display_unit": "m3"
+}

@@ -1,0 +1,18 @@
+{
+    "cleanUrls": true,
+    "rewrites": [
+        {"source": "/app", "destination": "/index.html"},
+        {"source": "/app/**", "destination": "/index.html"},
+        {"source": "/tracking/**", "destination": "/index.html"},
+        {"source": "/update-late-transports/**", "destination": "/index.html"},
+        {"source": "/signature/**", "destination": "/index.html"},
+        {"source": "/shared-invoices/**", "destination": "/index.html"},
+        {"source": "/shared-credit-notes/**", "destination": "/index.html"},
+
+        {"source": "/flow", "destination": "/flow/index.html"},
+        {"source": "/flow/**", "destination": "/flow/index.html"},
+
+        {"source": "/wam", "destination": "/waste/index.html"},
+        {"source": "/wam/**", "destination": "/waste/index.html"}
+    ]
+}

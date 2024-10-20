@@ -1,0 +1,11 @@
+.turbo
+.vercel
+.vscode
+.next/**
+.env
+
+node_modules
+build/**
+dist/**
+
+.coverage/**

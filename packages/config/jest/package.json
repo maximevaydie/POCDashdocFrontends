@@ -1,0 +1,10 @@
+{
+  "name": "jest-custom-config",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "latest"
+  },
+  "devDependencies": {
+    "@types/jest": "latest"
+  }
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingWheel renders correctly with default 1`] = `
+<div
+  className="css-1j2ne5c"
+  data-testid="loading-wheel"
+  display="block"
+  height={34}
+  width={34}
+>
+  <svg
+    css={
+      {
+        "map": undefined,
+        "name": "xz9gup",
+        "next": undefined,
+        "styles": "
+                    @keyframes loading-wheel {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+
+                        to {
+                            transform: rotate(1turn);
+                        }
+                    }
+                    animation: loading-wheel 2s infinite linear;
+                ",
+        "toString": [Function],
+      }
+    }
+    height={34}
+    viewBox="0 0 200 200"
+    width={34}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="100"
+      cy="100"
+      fill="none"
+      r="70"
+      stroke="#27333F"
+      strokeDasharray="410 1000"
+      strokeDashoffset="0"
+      strokeWidth="20"
+    />
+  </svg>
+</div>
+`;

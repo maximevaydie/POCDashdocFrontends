@@ -1,0 +1,1334 @@
+{
+    "uid": "15676951916VbO4PBx",
+    "sequential_id": 22,
+    "created": "2019-09-05T14:54:33.056829Z",
+    "updated": "2019-09-06T09:01:56.871830Z",
+    "remote_id": "",
+    "carrier_address": {
+        "pk": 129,
+        "name": "CarrierTest",
+        "address": "",
+        "city": "",
+        "postcode": "",
+        "country": "",
+        "latitude": null,
+        "longitude": null,
+        "coords_validated": false,
+        "company": {
+            "pk": 1,
+            "name": "CarrierTest",
+            "phone_number": "0",
+            "email": "jack@email.com",
+            "siren": "",
+            "trade_number": "",
+            "vat_number": "",
+            "settings": {
+                "cmr_only": false,
+                "print_mode": false,
+                "contract_html": "",
+                "signature_process": "skippable_electronic_signature",
+                "special_agreements": "",
+                "stamp": null,
+                "logo": null
+            }
+        }
+    },
+    "created_by": {
+        "pk": 1,
+        "name": "CarrierTest",
+        "settings_contract_html": "",
+        "settings_logo": null,
+        "settings_print_mode": false
+    },
+    "created_device": "2019-09-05T14:53:17.717000Z",
+    "creation_method": "mobile_app",
+    "is_order": false,
+    "archived_by": [],
+    "invite_code": "RBEDPV",
+    "deliveries": [
+        {
+            "uid": "15676951916RqoUIMv",
+            "sequential_id": 24,
+            "remote_id": "",
+            "tracking_id": "125B4E-1ECFED",
+            "origin": {
+                "uid": "15676951916LvWqpQL",
+                "address": {
+                    "pk": 142,
+                    "name": "Graillet (Exemple)",
+                    "address": "3 Chemin de la Carrière",
+                    "city": "Gap",
+                    "postcode": "05000",
+                    "country": "FR",
+                    "latitude": 44.537308,
+                    "longitude": 6.047052,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 7,
+                        "name": "Graillet (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "15676951916QQ9NdJP",
+                "address": {
+                    "pk": 143,
+                    "name": "Colin (Exemple)",
+                    "address": "Route des Galops",
+                    "city": "Paron",
+                    "postcode": "89100",
+                    "country": "FR",
+                    "latitude": 48.177965,
+                    "longitude": 3.222465,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 6,
+                        "name": "Colin (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 144,
+                "name": "Perret (Exemple)",
+                "address": "Route de Keriel",
+                "city": "Ploemeur",
+                "postcode": "56270",
+                "country": "FR",
+                "latitude": null,
+                "longitude": null,
+                "coords_validated": false,
+                "company": {
+                    "pk": 5,
+                    "name": "Perret (Exemple)",
+                    "settings_contract_html": "",
+                    "settings_logo": null,
+                    "settings_print_mode": false
+                }
+            },
+            "planned_loads": [
+                {
+                    "uid": "125e3a3e-cfed-11e9-9cbf-0242ac120007",
+                    "remote_id": "",
+                    "description": "Pâtes",
+                    "weight": "",
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "pallet_format": "",
+                    "volume": "",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "",
+                    "quantity": null,
+                    "category": "pallets",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "origin_loads": [],
+            "destination_loads": [],
+            "tracking_contacts": [],
+            "shipper_reference": "",
+            "multiple_rounds": false,
+            "is_cancelled": false
+        },
+        {
+            "uid": "15676951916Ho8EQgV",
+            "sequential_id": 23,
+            "remote_id": "",
+            "tracking_id": "1255AD-2ECFED",
+            "origin": {
+                "uid": "15676951916LvWqpQL",
+                "address": {
+                    "pk": 142,
+                    "name": "Graillet (Exemple)",
+                    "address": "3 Chemin de la Carrière",
+                    "city": "Gap",
+                    "postcode": "05000",
+                    "country": "FR",
+                    "latitude": 44.537308,
+                    "longitude": 6.047052,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 7,
+                        "name": "Graillet (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "15676951916F3BJLJ0",
+                "address": {
+                    "pk": 140,
+                    "name": "Barre S.A.R.L. (Exemple)",
+                    "address": "Chemin de la Clavellerie",
+                    "city": "Chancelade",
+                    "postcode": "24650",
+                    "country": "FR",
+                    "latitude": 45.202947,
+                    "longitude": 0.634394,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 3,
+                        "name": "Barre S.A.R.L. (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 141,
+                "name": "Perret (Exemple)",
+                "address": "Route de Keriel",
+                "city": "Ploemeur",
+                "postcode": "56270",
+                "country": "FR",
+                "latitude": null,
+                "longitude": null,
+                "coords_validated": false,
+                "company": {
+                    "pk": 5,
+                    "name": "Perret (Exemple)",
+                    "settings_contract_html": "",
+                    "settings_logo": null,
+                    "settings_print_mode": false
+                }
+            },
+            "planned_loads": [
+                {
+                    "uid": "12584160-cfed-11e9-9cbf-0242ac120007",
+                    "remote_id": "",
+                    "description": "Biscuits",
+                    "weight": "",
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "pallet_format": "",
+                    "volume": "",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "",
+                    "quantity": null,
+                    "category": "pallets",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "origin_loads": [],
+            "destination_loads": [],
+            "tracking_contacts": [],
+            "shipper_reference": "",
+            "multiple_rounds": false,
+            "is_cancelled": false
+        },
+        {
+            "uid": "15676951916kE080lT",
+            "sequential_id": 22,
+            "remote_id": "",
+            "tracking_id": "124F48-EECFED",
+            "origin": {
+                "uid": "15676951916LvWqpQL",
+                "address": {
+                    "pk": 142,
+                    "name": "Graillet (Exemple)",
+                    "address": "3 Chemin de la Carrière",
+                    "city": "Gap",
+                    "postcode": "05000",
+                    "country": "FR",
+                    "latitude": 44.537308,
+                    "longitude": 6.047052,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 7,
+                        "name": "Graillet (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "156769519169cpaS5N",
+                "address": {
+                    "pk": 137,
+                    "name": "Perret (Exemple)",
+                    "address": "Route de Keriel",
+                    "city": "Ploemeur",
+                    "postcode": "56270",
+                    "country": "FR",
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false,
+                    "company": {
+                        "pk": 5,
+                        "name": "Perret (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 138,
+                "name": "Perret (Exemple)",
+                "address": "Route de Keriel",
+                "city": "Ploemeur",
+                "postcode": "56270",
+                "country": "FR",
+                "latitude": null,
+                "longitude": null,
+                "coords_validated": false,
+                "company": {
+                    "pk": 5,
+                    "name": "Perret (Exemple)",
+                    "settings_contract_html": "",
+                    "settings_logo": null,
+                    "settings_print_mode": false
+                }
+            },
+            "planned_loads": [
+                {
+                    "uid": "1252b880-cfed-11e9-9cbf-0242ac120007",
+                    "remote_id": "",
+                    "description": "Livres",
+                    "weight": "",
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "pallet_format": "",
+                    "volume": "",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "",
+                    "quantity": null,
+                    "category": "pallets",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "origin_loads": [],
+            "destination_loads": [],
+            "tracking_contacts": [],
+            "shipper_reference": "",
+            "multiple_rounds": false,
+            "is_cancelled": false
+        }
+    ],
+    "segments": [
+        {
+            "uid": "261b2c58-cfed-11e9-91a7-0242ac120007",
+            "remote_id": "",
+            "trucker": {
+                "pk": 6,
+                "display_name": "1 1",
+                "user": 7,
+                "remote_id": ""
+            },
+            "origin": {
+                "uid": "26178076-cfed-11e9-91a7-0242ac120007",
+                "address": null,
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "156769519169cpaS5N",
+                "address": {
+                    "pk": 137,
+                    "name": "Perret (Exemple)",
+                    "address": "Route de Keriel",
+                    "city": "Ploemeur",
+                    "postcode": "56270",
+                    "country": "FR",
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false,
+                    "company": {
+                        "pk": 5,
+                        "name": "Perret (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 3
+        },
+        {
+            "uid": "124848d2-cfed-11e9-9cbf-0242ac120007",
+            "remote_id": "",
+            "trucker": {
+                "pk": 5,
+                "display_name": "Pouet Cacahuète",
+                "user": 6,
+                "remote_id": ""
+            },
+            "origin": {
+                "uid": "15676951916QQ9NdJP",
+                "address": {
+                    "pk": 143,
+                    "name": "Colin (Exemple)",
+                    "address": "Route des Galops",
+                    "city": "Paron",
+                    "postcode": "89100",
+                    "country": "FR",
+                    "latitude": 48.177965,
+                    "longitude": 3.222465,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 6,
+                        "name": "Colin (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "26178076-cfed-11e9-91a7-0242ac120007",
+                "address": null,
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 2
+        },
+        {
+            "uid": "1242dfb4-cfed-11e9-9cbf-0242ac120007",
+            "remote_id": "",
+            "trucker": {
+                "pk": 5,
+                "display_name": "Pouet Cacahuète",
+                "user": 6,
+                "remote_id": ""
+            },
+            "origin": {
+                "uid": "15676951916F3BJLJ0",
+                "address": {
+                    "pk": 140,
+                    "name": "Barre S.A.R.L. (Exemple)",
+                    "address": "Chemin de la Clavellerie",
+                    "city": "Chancelade",
+                    "postcode": "24650",
+                    "country": "FR",
+                    "latitude": 45.202947,
+                    "longitude": 0.634394,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 3,
+                        "name": "Barre S.A.R.L. (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "15676951916QQ9NdJP",
+                "address": {
+                    "pk": 143,
+                    "name": "Colin (Exemple)",
+                    "address": "Route des Galops",
+                    "city": "Paron",
+                    "postcode": "89100",
+                    "country": "FR",
+                    "latitude": 48.177965,
+                    "longitude": 3.222465,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 6,
+                        "name": "Colin (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "vehicle": {
+                "pk": 20,
+                "carrier": 1,
+                "category": "trailer_truck",
+                "payload": null,
+                "width": null,
+                "length": null,
+                "height": null,
+                "has_hatch": false,
+                "has_mounted_forklift": false,
+                "has_crane": false,
+                "has_moving_floor": false,
+                "has_straps": false,
+                "has_square": false,
+                "license_plate": "CV350TM",
+                "created": "2019-09-05T14:56:32.369844Z"
+            },
+            "trailers": [
+                {
+                    "pk": 10,
+                    "carrier": 1,
+                    "license_plate": "AVC467",
+                    "created": "2019-09-05T12:49:39.700058Z"
+                }
+            ],
+            "sort_order": 1
+        },
+        {
+            "uid": "123a22c0-cfed-11e9-9cbf-0242ac120007",
+            "remote_id": "",
+            "trucker": {
+                "pk": 5,
+                "display_name": "Pouet Cacahuète",
+                "user": 6,
+                "remote_id": ""
+            },
+            "origin": {
+                "uid": "15676951916LvWqpQL",
+                "address": {
+                    "pk": 142,
+                    "name": "Graillet (Exemple)",
+                    "address": "3 Chemin de la Carrière",
+                    "city": "Gap",
+                    "postcode": "05000",
+                    "country": "FR",
+                    "latitude": 44.537308,
+                    "longitude": 6.047052,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 7,
+                        "name": "Graillet (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "15676951916F3BJLJ0",
+                "address": {
+                    "pk": 140,
+                    "name": "Barre S.A.R.L. (Exemple)",
+                    "address": "Chemin de la Clavellerie",
+                    "city": "Chancelade",
+                    "postcode": "24650",
+                    "country": "FR",
+                    "latitude": 45.202947,
+                    "longitude": 0.634394,
+                    "coords_validated": true,
+                    "company": {
+                        "pk": 3,
+                        "name": "Barre S.A.R.L. (Exemple)",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    }
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "skippable_electronic_signature",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "reference": "",
+                "is_cancelled": false
+            },
+            "vehicle": {
+                "pk": 19,
+                "carrier": 1,
+                "category": "straight",
+                "payload": null,
+                "width": null,
+                "length": null,
+                "height": null,
+                "has_hatch": false,
+                "has_mounted_forklift": false,
+                "has_crane": false,
+                "has_moving_floor": false,
+                "has_straps": false,
+                "has_square": false,
+                "license_plate": "DS605DH",
+                "created": "2019-09-05T14:55:18.098134Z"
+            },
+            "trailers": [
+                {
+                    "pk": 10,
+                    "carrier": 1,
+                    "license_plate": "AVC467",
+                    "created": "2019-09-05T12:49:39.700058Z"
+                }
+            ],
+            "sort_order": 0
+        }
+    ],
+    "status": "unloading_complete",
+    "status_updates": [
+        {
+            "uid": "123f26f8-cfed-11e9-9cbf-0242ac120007",
+            "created": "2019-09-05T14:54:33.184162Z",
+            "created_device": "2019-09-05T14:53:17.717000Z",
+            "creation_method": "auto",
+            "category": "assigned",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "site": null,
+            "delivery": null,
+            "segment": "123a22c0-cfed-11e9-9cbf-0242ac120007",
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "12450910-cfed-11e9-9cbf-0242ac120007",
+            "created": "2019-09-05T14:54:33.222616Z",
+            "created_device": "2019-09-05T14:53:17.717000Z",
+            "creation_method": "auto",
+            "category": "assigned",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "site": null,
+            "delivery": null,
+            "segment": "1242dfb4-cfed-11e9-9cbf-0242ac120007",
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "124b8786-cfed-11e9-9cbf-0242ac120007",
+            "created": "2019-09-05T14:54:33.265165Z",
+            "created_device": "2019-09-05T14:53:17.717000Z",
+            "creation_method": "auto",
+            "category": "assigned",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "site": null,
+            "delivery": null,
+            "segment": "124848d2-cfed-11e9-9cbf-0242ac120007",
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "126047ca-cfed-11e9-9cbf-0242ac120007",
+            "created": "2019-09-05T14:54:33.401359Z",
+            "created_device": "2019-09-05T14:53:17.717000Z",
+            "creation_method": "auto",
+            "category": "acknowledged",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "15676952896BBZQ5Pu",
+            "created": "2019-09-05T14:54:48.151513Z",
+            "created_device": "2019-09-05T14:54:49.425000Z",
+            "creation_method": "trucker",
+            "category": "on_loading_site",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": "15676951916LvWqpQL",
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": 43.622523,
+            "longitude": 1.460887,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "15676953596N9kRtSk",
+            "created": "2019-09-05T14:55:58.859833Z",
+            "created_device": "2019-09-05T14:55:59.997000Z",
+            "creation_method": "trucker",
+            "category": "loading_complete",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": "15676951916LvWqpQL",
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": {
+                "uid": "15676953606pqijAQn",
+                "status_update": "15676953596N9kRtSk",
+                "created": "2019-09-05T14:56:00.094149Z",
+                "created_device": "2019-09-05T14:56:00.098000Z",
+                "signatory": null,
+                "signatory_name": "",
+                "trucker_name": "Pouet Cacahuète",
+                "signature_trucker": "",
+                "signature_signatory": "",
+                "signatory_signed_at": "2019-09-05T14:56:00.098000Z",
+                "signature_image_trucker": "http://127.0.0.1:8000/media/truckers/2220265a-d25f-4868-b508-169f76dc0be2.png",
+                "signature_image_signatory": "",
+                "signature_method": "no_signatory",
+                "code": "",
+                "checksum": ""
+            },
+            "latitude": 43.6225213,
+            "longitude": 1.4608778,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "15676953696SmfBSOh",
+            "created": "2019-09-05T14:56:08.118794Z",
+            "created_device": "2019-09-05T14:56:09.487000Z",
+            "creation_method": "trucker",
+            "category": "on_unloading_site",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": "15676951916F3BJLJ0",
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": 43.6225411,
+            "longitude": 1.4608403,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "15676953796NX6WzdF",
+            "created": "2019-09-05T14:56:18.403313Z",
+            "created_device": "2019-09-05T14:56:19.558000Z",
+            "creation_method": "trucker",
+            "category": "unloading_complete",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": "15676951916F3BJLJ0",
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": {
+                "uid": "1567695379663OvuG6",
+                "status_update": "15676953796NX6WzdF",
+                "created": "2019-09-05T14:56:18.655796Z",
+                "created_device": "2019-09-05T14:56:19.633000Z",
+                "signatory": null,
+                "signatory_name": "",
+                "trucker_name": "Pouet Cacahuète",
+                "signature_trucker": "",
+                "signature_signatory": "",
+                "signatory_signed_at": "2019-09-05T14:56:19.633000Z",
+                "signature_image_trucker": "http://127.0.0.1:8000/media/truckers/2220265a-d25f-4868-b508-169f76dc0be2.png",
+                "signature_image_signatory": "",
+                "signature_method": "no_signatory",
+                "code": "",
+                "checksum": ""
+            },
+            "latitude": 43.6225231,
+            "longitude": 1.4608868,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "15676953886VRKR2M8",
+            "created": "2019-09-05T14:56:27.558690Z",
+            "created_device": "2019-09-05T14:56:28.922000Z",
+            "creation_method": "trucker",
+            "category": "on_unloading_site",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": "15676951916QQ9NdJP",
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": 43.6225385,
+            "longitude": 1.4608663,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "15676954016wEWDvhy",
+            "created": "2019-09-05T14:56:39.993342Z",
+            "created_device": "2019-09-05T14:56:41.254000Z",
+            "creation_method": "trucker",
+            "category": "unloading_complete",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": "15676951916QQ9NdJP",
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": {
+                "uid": "15676954016QwtuBNj",
+                "status_update": "15676954016wEWDvhy",
+                "created": "2019-09-05T14:56:40.292649Z",
+                "created_device": "2019-09-05T14:56:41.334000Z",
+                "signatory": null,
+                "signatory_name": "",
+                "trucker_name": "Pouet Cacahuète",
+                "signature_trucker": "",
+                "signature_signatory": "",
+                "signatory_signed_at": "2019-09-05T14:56:41.334000Z",
+                "signature_image_trucker": "http://127.0.0.1:8000/media/truckers/2220265a-d25f-4868-b508-169f76dc0be2.png",
+                "signature_image_signatory": "",
+                "signature_method": "no_signatory",
+                "code": "",
+                "checksum": ""
+            },
+            "latitude": 43.6225216,
+            "longitude": 1.4608774,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "156776051775VfDQJh",
+            "created": "2019-09-06T09:01:56.798466Z",
+            "created_device": "2019-09-06T09:01:57.090000Z",
+            "creation_method": "trucker",
+            "category": "acknowledged",
+            "author": {
+                "display_name": "1 1",
+                "company": 1,
+                "pk": 7
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "122c97ae-cfed-11e9-9cbf-0242ac120007",
+            "created": "2019-09-05T14:54:33.062495Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "created",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "2d22f6b6-cfed-11e9-a6e7-0242ac120007",
+            "created": "2019-09-05T14:55:18.297824Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": "123a22c0-cfed-11e9-9cbf-0242ac120007",
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {
+                "segments": [
+                    {
+                        "vehicle": {
+                            "new": "DS605DH",
+                            "old": null
+                        },
+                        "trailers": [
+                            {
+                                "new": "AVC467",
+                                "old": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            "author_company": null
+        },
+        {
+            "uid": "402e541c-cfed-11e9-a6e7-0242ac120007",
+            "created": "2019-09-05T14:55:50.248983Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": "15676951916RqoUIMv",
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {},
+            "author_company": null
+        },
+        {
+            "uid": "40e0282c-cfed-11e9-a6e7-0242ac120007",
+            "created": "2019-09-05T14:55:51.414431Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": "15676951916Ho8EQgV",
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {},
+            "author_company": null
+        },
+        {
+            "uid": "41a987d0-cfed-11e9-a6e7-0242ac120007",
+            "created": "2019-09-05T14:55:52.734158Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": "15676951916kE080lT",
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {},
+            "author_company": null
+        },
+        {
+            "uid": "4d69b6f8-cfed-11e9-a6e7-0242ac120007",
+            "created": "2019-09-05T14:56:12.448580Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": "15676951916Ho8EQgV",
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {},
+            "author_company": null
+        },
+        {
+            "uid": "596a8144-cfed-11e9-a6e7-0242ac120007",
+            "created": "2019-09-05T14:56:32.586383Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": "1242dfb4-cfed-11e9-9cbf-0242ac120007",
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {
+                "segments": [
+                    {
+                        "vehicle": {
+                            "new": "CV350TM",
+                            "old": null
+                        },
+                        "trailers": [
+                            {
+                                "new": "AVC467",
+                                "old": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            "author_company": null
+        },
+        {
+            "uid": "5ab55d94-cfed-11e9-a6e7-0242ac120007",
+            "created": "2019-09-05T14:56:34.754724Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Pouet Cacahuète",
+                "company": 1,
+                "pk": 6
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": "15676951916RqoUIMv",
+            "segment": null,
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {},
+            "author_company": null
+        },
+        {
+            "uid": "e81cf1be-d084-11e9-8c98-0242ac120007",
+            "created": "2019-09-06T09:01:25.998584Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "updated",
+            "author": {
+                "display_name": "Jack Doe",
+                "company": 1,
+                "pk": 1
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": "261b2c58-cfed-11e9-91a7-0242ac120007",
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": {},
+            "author_company": null
+        },
+        {
+            "uid": "e821cd92-d084-11e9-8c98-0242ac120007",
+            "created": "2019-09-06T09:01:26.030340Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "assigned",
+            "author": {
+                "display_name": "Jack Doe",
+                "company": 1,
+                "pk": 1
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": {
+                "display_name": "1 1",
+                "company": 1,
+                "pk": 7
+            },
+            "site": null,
+            "delivery": null,
+            "segment": "261b2c58-cfed-11e9-91a7-0242ac120007",
+            "transport": "15676951916VbO4PBx",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        }
+    ],
+    "has_observations": false,
+    "messages": [],
+    "requested_vehicle": "",
+    "documents": [
+        {
+            "pk": 23,
+            "file_updated_date": "2019-09-06T09:01:56.931291Z",
+            "delivery": "15676951916Ho8EQgV",
+            "category": "ldv",
+            "name": "National bill of lading",
+            "file": "http://127.0.0.1:8000/shipments/documents/1257e26a-cfed-11e9-9cbf-0242ac120007"
+        },
+        {
+            "pk": 24,
+            "file_updated_date": "2019-09-06T09:01:56.935075Z",
+            "delivery": "15676951916RqoUIMv",
+            "category": "ldv",
+            "name": "National bill of lading",
+            "file": "http://127.0.0.1:8000/shipments/documents/125dc20c-cfed-11e9-9cbf-0242ac120007"
+        },
+        {
+            "pk": 22,
+            "file_updated_date": "2019-09-06T09:01:56.931146Z",
+            "delivery": "15676951916kE080lT",
+            "category": "ldv",
+            "name": "National bill of lading",
+            "file": "http://127.0.0.1:8000/shipments/documents/125200de-cfed-11e9-9cbf-0242ac120007"
+        }
+    ],
+    "carrier_reference": "",
+    "price": null,
+    "volume_display_unit": "m3"
+}

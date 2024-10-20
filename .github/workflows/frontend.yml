@@ -1,0 +1,61 @@
+name: Frontend tests
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - master
+      - dev
+
+concurrency:
+  group: ${{ github.workflow }}--${{ github.event.pull_request.number }}--frontend
+  cancel-in-progress: true
+
+jobs:
+  changes:
+    with:
+      run_if: true
+    uses: ./.github/workflows/changes.yml
+    secrets:
+      FAIRSPLICE_REDIS_URL: ${{ secrets.FAIRSPLICE_REDIS_URL }}
+
+  lint:
+    with:
+      run_if: true
+    uses: ./.github/workflows/lint.yml
+
+  check-feature-flags:
+    uses: ./.github/workflows/feature-flags.yml
+    secrets:
+      CONFIGCAT_PASSWORD: ${{ secrets.CONFIGCAT_PASSWORD }}
+      CONFIGCAT_USER: ${{ secrets.CONFIGCAT_USER }}
+
+  test-frontend:
+    needs: changes
+    with:
+      run_if: ${{ needs.changes.outputs.frontend_changed == 'true' || needs.changes.outputs.jsutils_changed == 'true' }}
+    uses: ./.github/workflows/test-frontend.yml
+
+  test-pdf:
+    needs: changes
+    with:
+      run_if: ${{ needs.changes.outputs.pdf_changed == 'true' || needs.changes.outputs.jsutils_changed == 'true' }}
+    uses: ./.github/workflows/test-pdf.yml
+
+  test-mobile:
+    needs: changes
+    with:
+      run_if: ${{ needs.changes.outputs.mobile_changed == 'true' || needs.changes.outputs.jsutils_changed == 'true' }}
+    uses: ./.github/workflows/test-mobile.yml
+
+  test-js-utils:
+    needs: changes
+    with:
+      run_if: ${{ needs.changes.outputs.jsutils_changed == 'true' }}
+    uses: ./.github/workflows/test-js-utils.yml
+
+  test-infra:
+    needs: changes
+    with:
+      run_if: ${{ needs.changes.outputs.infra_changed == 'true' }}
+    uses: ./.github/workflows/test-infra.yml

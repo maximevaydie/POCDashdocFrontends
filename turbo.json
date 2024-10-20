@@ -1,0 +1,78 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalEnv": [
+    "VITE_ALGOLIA_APP_ID",
+    "VITE_ALGOLIA_KEY",
+    "VITE_HERE_API_KEY",
+    "VITE_API_HOST",
+    "VITE_ASSETS_BASE_PATH",
+    "VITE_CHARGEBEE_APP",
+    "VITE_INTERCOM_APP_ID",
+    "VITE_PUSHER_KEY",
+    "VITE_SENTRY_API_KEY",
+    "VITE_SENTRY_AUTH_TOKEN",
+    "VITE_SCREEB_APP_ID",
+    "VITE_SEGMENT_KEY",
+    "VITE_QUICKBOOKS_APP_BASE_URI",
+    "VITE_NUVO_API_KEY",
+    "VITE_COMMIT_HASH",
+    "VITE_APP"
+  ],
+  "globalDependencies": [
+    "./env/.env"
+  ],
+  "tasks": {
+    "dev-tms": {
+      "cache": false,
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "./env/.env"
+      ]
+    },
+    "dev-tms-staging": {
+      "cache": false,
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "./env/.env.staging"
+      ]
+    },
+    "build-tms": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "./dist/tms**"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "./env/.env"
+      ]
+    },
+    "test-tms": {
+      "outputs": [],
+      "inputs": [
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "test/**/*.ts",
+        "test/**/*.tsx",
+        "./env/.env"
+      ]
+    },
+    "lint-tms": {
+      "outputs": []
+    },
+    "lint-tms:fix": {
+      "outputs": []
+    },
+    "build-storybook": {
+      "cache": false,
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "./env/.env"
+      ]
+    },
+    "storybook": {
+      "cache": false
+    }
+  }
+}

@@ -1,0 +1,604 @@
+{
+    "uid": "dcb8e74a-35ed-11e9-ba22-0242ac110007",
+    "sequential_id": 215679,
+    "created": "2019-02-21T15:32:13.842135Z",
+    "updated": "2019-02-21T15:32:33.398907Z",
+    "remote_id": "480129",
+    "shape": "complex",
+    "carrier_address": {
+        "pk": 1973443,
+        "address": "Rue de la Palun",
+        "city": "Marignane",
+        "postcode": "13700",
+        "country": "FR",
+        "company": {
+            "pk": 79568,
+            "name": "vectorys",
+            "phone_number": "33669697239",
+            "email": "habib.chaari@vectorys.com",
+            "siren": "",
+            "trade_number": "",
+            "vat_number": "",
+            "settings": {
+                "signature_process": "sign_on_glass",
+                "cmr_only": false,
+                "print_mode": false,
+                "special_agreements": "",
+                "contract_html": "",
+                "stamp": null,
+                "logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/fdf5ec62-a5b4-48a3-b387-f66fbe5948a0.jpg"
+            }
+        },
+        "latitude": 43.407322,
+        "longitude": 5.201738,
+        "coords_validated": false
+    },
+    "created_by": {
+        "pk": 79568,
+        "name": "vectorys",
+        "settings_contract_html": "",
+        "settings_logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/fdf5ec62-a5b4-48a3-b387-f66fbe5948a0.jpg",
+        "settings_print_mode": false
+    },
+    "created_device": null,
+    "creation_method": "",
+    "is_order": false,
+    "archived_by": [],
+    "price": null,
+    "carrier_reference": "carrier_reference",
+    "invite_code": "RYPZYD",
+    "deliveries": [
+        {
+            "uid": "dd579eee-35ed-11e9-9b34-0242ac110007",
+            "sequential_id": 241517,
+            "remote_id": "VI503997_1_503997",
+            "tracking_id": "DD57A2-E235ED",
+            "origin": {
+                "uid": "480129_503996_63876",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 1973451,
+                    "address": "37 AVENUE GEORGES CLEMENCEAU",
+                    "city": "AUDE",
+                    "postcode": "11160",
+                    "country": "FR",
+                    "company": {
+                        "pk": 147855,
+                        "name": "NUTRITIS"
+                    },
+                    "latitude": 43.283279,
+                    "longitude": 2.5797904,
+                    "coords_validated": false
+                },
+                "arrival_date": "2019-02-21",
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "480129_503997_27878",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 1973452,
+                    "address": "C/CAN FENOSA S/N - POL.IND. ROCA",
+                    "city": "MARTORELLES",
+                    "postcode": "08107",
+                    "country": "ES",
+                    "company": {
+                        "pk": 132079,
+                        "name": "PIRIEXPRESS S.L."
+                    },
+                    "latitude": 41.5367863,
+                    "longitude": 2.235604,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 1973450,
+                "address": "Z.I. LA PALUN - BP 129",
+                "city": "MARIGNANE",
+                "postcode": "13722 CEDEX",
+                "country": "FR",
+                "company": {
+                    "pk": 128536,
+                    "name": "VECTORYS FRANCE"
+                },
+                "latitude": 43.4042665,
+                "longitude": 5.2011023,
+                "coords_validated": false
+            },
+            "planned_loads": [
+                {
+                    "uid": "8DC58337-E246-4C73-B6A7-8106CEE9AF78",
+                    "remote_id": "",
+                    "description": "Marchandise Vide",
+                    "weight": "1",
+                    "height": 0,
+                    "width": 0,
+                    "length": 0,
+                    "pallet_format": "100x120",
+                    "volume": "0",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "0",
+                    "quantity": 1,
+                    "category": "containers",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "tracking_contacts": [
+                {
+                    "uid": "dc77f910-35ed-11e9-a20a-0242ac110007",
+                    "contact": {
+                        "uid": "e5b45550-9ca2-11e8-9f5b-d240f9322379",
+                        "created": "2018-08-10T13:40:08.723945Z",
+                        "company": {
+                            "pk": 79568,
+                            "name": "vectorys",
+                            "settings_contract_html": "",
+                            "settings_logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/fdf5ec62-a5b4-48a3-b387-f66fbe5948a0.jpg",
+                            "settings_print_mode": false
+                        },
+                        "created_by": 79568,
+                        "first_name": "Contact_Vectorys",
+                        "last_name": "by_marwa",
+                        "email": "support.tms@vectorys.com",
+                        "phone_number": "",
+                        "fax_number": ""
+                    },
+                    "subscribed_to_status_updates": false
+                }
+            ],
+            "shipper_reference": "shipper_reference",
+            "origin_loads": [],
+            "destination_loads": [],
+            "multiple_rounds": false,
+            "is_cancelled": false
+        },
+        {
+            "uid": "dd09f218-35ed-11e9-aa7f-0242ac110007",
+            "sequential_id": 241516,
+            "remote_id": "TN1D19104673_1_503995",
+            "tracking_id": "DD09F7-1435ED",
+            "origin": {
+                "uid": "480129_503995_8575",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 1973448,
+                    "address": "Z.I. LA PALUN - BP 129",
+                    "city": "MARIGNANE",
+                    "postcode": "13722 CEDEX",
+                    "country": "FR",
+                    "company": {
+                        "pk": 128536,
+                        "name": "VECTORYS FRANCE"
+                    },
+                    "latitude": 43.4042665,
+                    "longitude": 5.2011023,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "480129_503996_638751",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 1973451,
+                    "address": "37 AVENUE GEORGES CLEMENCEAU",
+                    "city": "AUDE",
+                    "postcode": "11160",
+                    "country": "FR",
+                    "company": {
+                        "pk": 147855,
+                        "name": "NUTRITIS"
+                    },
+                    "latitude": 43.283279,
+                    "longitude": 2.5797904,
+                    "coords_validated": false
+                },
+                "arrival_date": "2019-02-21",
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 1973450,
+                "address": "Z.I. LA PALUN - BP 129",
+                "city": "MARIGNANE",
+                "postcode": "13722 CEDEX",
+                "country": "FR",
+                "company": {
+                    "pk": 128536,
+                    "name": "VECTORYS FRANCE"
+                },
+                "latitude": 43.4042665,
+                "longitude": 5.2011023,
+                "coords_validated": false
+            },
+            "planned_loads": [
+                {
+                    "uid": "TN1D19104673_1_480129",
+                    "remote_id": "",
+                    "description": "DATTES A USAGE INDUSTRIEL",
+                    "weight": "24700",
+                    "height": 0,
+                    "width": 0,
+                    "length": 0,
+                    "pallet_format": "100x120",
+                    "volume": "0.0",
+                    "volume_display_unit": "m3",
+                    "linear_meters": "13.0",
+                    "quantity": 19,
+                    "category": "containers",
+                    "dangerous_goods_category": "",
+                    "complementary_information": "",
+                    "container_number": "",
+                    "tare_weight": "",
+                    "container_seal_number": "",
+                    "refrigerated": false,
+                    "temperature": "",
+                    "steres": null
+                }
+            ],
+            "tracking_contacts": [
+                {
+                    "uid": "dc09e1a6-35ed-11e9-8de9-0242ac110007",
+                    "contact": {
+                        "uid": "e5b45550-9ca2-11e8-9f5b-d240f9322379",
+                        "created": "2018-08-10T13:40:08.723945Z",
+                        "company": {
+                            "pk": 79568,
+                            "name": "vectorys",
+                            "settings_contract_html": "",
+                            "settings_logo": "https://storage.googleapis.com/dashdoc-media/media/carriers/fdf5ec62-a5b4-48a3-b387-f66fbe5948a0.jpg",
+                            "settings_print_mode": false
+                        },
+                        "created_by": 79568,
+                        "first_name": "Contact_Vectorys",
+                        "last_name": "by_marwa",
+                        "email": "support.tms@vectorys.com",
+                        "phone_number": "",
+                        "fax_number": ""
+                    },
+                    "subscribed_to_status_updates": false
+                }
+            ],
+            "shipper_reference": "shipper_reference",
+            "origin_loads": [],
+            "destination_loads": [],
+            "multiple_rounds": false,
+            "is_cancelled": false
+        }
+    ],
+    "segments": [
+        {
+            "uid": "dce3bf28-35ed-11e9-a5f7-0242ac110007",
+            "remote_id": "480129_503997",
+            "trucker": {
+                "pk": 130414,
+                "display_name": "Piri Piri",
+                "user": 138422,
+                "remote_id": "597BDC73-E7D1-4080-912F-74B2B56E43A5"
+            },
+            "origin": {
+                "uid": "480129_503996_63876",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 1973451,
+                    "address": "37 AVENUE GEORGES CLEMENCEAU",
+                    "city": "AUDE",
+                    "postcode": "11160",
+                    "country": "FR",
+                    "company": {
+                        "pk": 147855,
+                        "name": "NUTRITIS"
+                    },
+                    "latitude": 43.283279,
+                    "longitude": 2.5797904,
+                    "coords_validated": false
+                },
+                "arrival_date": "2019-02-21",
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "480129_503997_27878",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 1973452,
+                    "address": "C/CAN FENOSA S/N - POL.IND. ROCA",
+                    "city": "MARTORELLES",
+                    "postcode": "08107",
+                    "country": "ES",
+                    "company": {
+                        "pk": 132079,
+                        "name": "PIRIEXPRESS S.L."
+                    },
+                    "latitude": 41.5367863,
+                    "longitude": 2.235604,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 2
+        },
+        {
+            "uid": "480129_503996",
+            "remote_id": "",
+            "trucker": {
+                "pk": 130414,
+                "display_name": "Piri Piri",
+                "user": 138422,
+                "remote_id": "597BDC73-E7D1-4080-912F-74B2B56E43A5"
+            },
+            "origin": {
+                "uid": "480129_503996_638751",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 1973451,
+                    "address": "37 AVENUE GEORGES CLEMENCEAU",
+                    "city": "AUDE",
+                    "postcode": "11160",
+                    "country": "FR",
+                    "company": {
+                        "pk": 147855,
+                        "name": "NUTRITIS"
+                    },
+                    "latitude": 43.283279,
+                    "longitude": 2.5797904,
+                    "coords_validated": false
+                },
+                "arrival_date": "2019-02-21",
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "480129_503996_63876",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 1973451,
+                    "address": "37 AVENUE GEORGES CLEMENCEAU",
+                    "city": "AUDE",
+                    "postcode": "11160",
+                    "country": "FR",
+                    "company": {
+                        "pk": 147855,
+                        "name": "NUTRITIS"
+                    },
+                    "latitude": 43.283279,
+                    "longitude": 2.5797904,
+                    "coords_validated": false
+                },
+                "arrival_date": "2019-02-21",
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 1
+        },
+        {
+            "uid": "480129_503996",
+            "remote_id": "",
+            "trucker": {
+                "pk": 130414,
+                "display_name": "Piri Piri",
+                "user": 138422,
+                "remote_id": "597BDC73-E7D1-4080-912F-74B2B56E43A5"
+            },
+            "origin": {
+                "uid": "480129_503995_8575",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 1973448,
+                    "address": "Z.I. LA PALUN - BP 129",
+                    "city": "MARIGNANE",
+                    "postcode": "13722 CEDEX",
+                    "country": "FR",
+                    "company": {
+                        "pk": 128536,
+                        "name": "VECTORYS FRANCE"
+                    },
+                    "latitude": 43.4042665,
+                    "longitude": 5.2011023,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "480129_503996_638751",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 1973451,
+                    "address": "37 AVENUE GEORGES CLEMENCEAU",
+                    "city": "AUDE",
+                    "postcode": "11160",
+                    "country": "FR",
+                    "company": {
+                        "pk": 147855,
+                        "name": "NUTRITIS"
+                    },
+                    "latitude": 43.283279,
+                    "longitude": 2.5797904,
+                    "coords_validated": false
+                },
+                "arrival_date": "2019-02-21",
+                "date_exact": false,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "FromNote",
+                "unloading_instructions": "ToNote",
+                "is_cancelled": false
+            },
+            "vehicle": null,
+            "trailers": [],
+            "sort_order": 0
+        }
+    ],
+    "status": "assigned",
+    "status_updates": [
+        {
+            "uid": "dcbe7308-35ed-11e9-baa5-0242ac110007",
+            "created": "2019-02-21T15:32:13.850587Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "created",
+            "author": {
+                "display_name": "Connexion Tms",
+                "company": 79568,
+                "pk": 130201
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": null,
+            "transport": "dcb8e74a-35ed-11e9-ba22-0242ac110007",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "dcd51a48-35ed-11e9-935c-0242ac110007",
+            "created": "2019-02-21T15:32:13.998980Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "assigned",
+            "author": {
+                "display_name": "Connexion Tms",
+                "company": 79568,
+                "pk": 130201
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": {
+                "display_name": "Piri Piri",
+                "company": 132079,
+                "pk": 138422
+            },
+            "site": null,
+            "delivery": null,
+            "segment": "480129_503996",
+            "transport": "dcb8e74a-35ed-11e9-ba22-0242ac110007",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        },
+        {
+            "uid": "dcfafa88-35ed-11e9-8ac1-0242ac110007",
+            "created": "2019-02-21T15:32:14.247206Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "assigned",
+            "author": {
+                "display_name": "Connexion Tms",
+                "company": 79568,
+                "pk": 130201
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": {
+                "display_name": "Piri Piri",
+                "company": 132079,
+                "pk": 138422
+            },
+            "site": null,
+            "delivery": null,
+            "segment": "dce3bf28-35ed-11e9-a5f7-0242ac110007",
+            "transport": "dcb8e74a-35ed-11e9-ba22-0242ac110007",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        }
+    ],
+    "has_observations": false,
+    "messages": [],
+    "requested_vehicle": "box_truck",
+    "documents": [
+        {
+            "pk": 171311,
+            "file_updated_date": "2019-02-21T15:32:44.732045Z",
+            "delivery": "dd579eee-35ed-11e9-9b34-0242ac110007",
+            "category": "cmr",
+            "name": "CMR",
+            "file": "https://www.dashdoc.eu/shipments/documents/dd8c8e22-35ed-11e9-8d16-0242ac110007"
+        },
+        {
+            "pk": 171310,
+            "file_updated_date": "2019-02-21T15:32:44.739618Z",
+            "delivery": "dd09f218-35ed-11e9-aa7f-0242ac110007",
+            "category": "ldv",
+            "name": "National bill of lading",
+            "file": "https://www.dashdoc.eu/shipments/documents/dd3eb00c-35ed-11e9-9a6e-0242ac110007"
+        }
+    ],
+    "volume_display_unit": "m3"
+}

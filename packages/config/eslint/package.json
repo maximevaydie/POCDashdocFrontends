@@ -1,0 +1,11 @@
+{
+  "name": "@packages/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-storybook": "latest"
+  }
+}

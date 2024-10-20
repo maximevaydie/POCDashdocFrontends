@@ -1,0 +1,13 @@
+{
+  "name": "@dashdoc/react",
+  "type": "module",
+  "description": "React specific package for Dashdoc's frontends apps.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test script specified\" && exit 1",
+    "test:watch": "echo \"Error: no test watch script specified\" && exit 1"
+  },
+  "dependencies": {
+    "tsconfig": "*"
+  }
+}

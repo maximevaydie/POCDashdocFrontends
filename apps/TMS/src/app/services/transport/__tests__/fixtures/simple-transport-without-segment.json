@@ -1,0 +1,177 @@
+{
+    "uid": "d5186ccc-390f-11e9-a9f3-4c32759a9ce3",
+    "sequential_id": 67,
+    "created": "2019-02-25T15:12:57.768404Z",
+    "updated": "2019-02-25T15:13:12.012689Z",
+    "remote_id": "",
+    "carrier_address": {
+        "pk": 697,
+        "address": "39 rue du caire",
+        "city": "Paris",
+        "postcode": "75003",
+        "country": "FR",
+        "company": {
+            "pk": 1,
+            "name": "Transports Ouaki",
+            "phone_number": "0123456789",
+            "email": "atipoulc@test.com",
+            "siren": "",
+            "trade_number": "999999999",
+            "vat_number": "FR14999999999",
+            "settings": {
+                "signature_process": "sign_on_glass",
+                "cmr_only": false,
+                "print_mode": false,
+                "special_agreements": "",
+                "contract_html": "TEST",
+                "stamp": null,
+                "logo": null
+            }
+        },
+        "latitude": null,
+        "longitude": null,
+        "coords_validated": false
+    },
+    "created_by": {
+        "pk": 1,
+        "name": "Transports Ouaki",
+        "settings_contract_html": "TEST",
+        "settings_logo": null,
+        "settings_print_mode": false
+    },
+    "created_device": null,
+    "creation_method": "",
+    "price": null,
+    "carrier_reference": "carrier_reference",
+    "is_order": false,
+    "archived_by": [],
+    "invite_code": "RBAXMA",
+    "deliveries": [
+        {
+            "uid": "d6abae82-390f-11e9-a9f3-4c32759a9ce3",
+            "sequential_id": 86,
+            "remote_id": "",
+            "tracking_id": "D6ABB1-CA390F",
+            "origin": {
+                "uid": "15511075521dFIpFbY",
+                "reference": "origin_reference",
+                "address": {
+                    "pk": 700,
+                    "address": "Maison Rouge",
+                    "city": "MOURJOU",
+                    "postcode": "15340",
+                    "country": "FR",
+                    "company": {
+                        "pk": 54,
+                        "name": "ROBERT André",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "destination": {
+                "uid": "15511075521EBi6iCz",
+                "reference": "destination_reference",
+                "address": {
+                    "pk": 701,
+                    "address": "Maison Rouge",
+                    "city": "MOURJOU",
+                    "postcode": "15340",
+                    "country": "FR",
+                    "company": {
+                        "pk": 54,
+                        "name": "ROBERT André",
+                        "settings_contract_html": "",
+                        "settings_logo": null,
+                        "settings_print_mode": false
+                    },
+                    "latitude": null,
+                    "longitude": null,
+                    "coords_validated": false
+                },
+                "arrival_date": null,
+                "date_exact": true,
+                "arrival_time_min": null,
+                "arrival_time_max": null,
+                "signature_process": "sign_on_glass",
+                "loading_instructions": "",
+                "unloading_instructions": "",
+                "is_cancelled": false
+            },
+            "shipper_address": {
+                "pk": 702,
+                "address": "78 RUE DE FENOUILLET",
+                "city": "TOULOUSE",
+                "postcode": "31200",
+                "country": "FR",
+                "company": {
+                    "pk": 38,
+                    "name": "ACTIA AUTOMOTIVE FONDEYRE"
+                },
+                "latitude": null,
+                "longitude": null,
+                "coords_validated": false
+            },
+            "planned_loads": [],
+            "tracking_contacts": [],
+            "shipper_reference": "shipper_reference",
+            "origin_loads": [],
+            "destination_loads": [],
+            "multiple_rounds": false,
+            "is_cancelled": false
+        }
+    ],
+    "segments": [],
+    "status": "created",
+    "status_updates": [
+        {
+            "uid": "d563fd22-390f-11e9-a9f3-4c32759a9ce3",
+            "created": "2019-02-25T15:12:57.891969Z",
+            "created_device": null,
+            "creation_method": "auto",
+            "category": "created",
+            "author": {
+                "display_name": "Arthur Ouaki",
+                "company": 1,
+                "pk": 1
+            },
+            "content": "",
+            "content_signatory": "",
+            "target": null,
+            "site": null,
+            "delivery": null,
+            "segment": null,
+            "transport": "d5186ccc-390f-11e9-a9f3-4c32759a9ce3",
+            "signature": null,
+            "latitude": null,
+            "longitude": null,
+            "update_details": null,
+            "author_company": null
+        }
+    ],
+    "has_observations": false,
+    "messages": [],
+    "requested_vehicle": "",
+    "documents": [
+        {
+            "pk": 88,
+            "file_updated_date": null,
+            "delivery": "d6abae82-390f-11e9-a9f3-4c32759a9ce3",
+            "category": "ldv",
+            "name": "National bill of lading",
+            "file": "http://127.0.0.1:8000/shipments/documents/d76d7058-390f-11e9-a9f3-4c32759a9ce3"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "extends": "tsconfig/base.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "./src",
+        "esModuleInterop": false,
+        "lib": ["DOM", "DOM.Iterable", "ES2020", "ES2022"],
+        "module": "es2020",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "outDir": "./dist",
+        "paths": {
+            "app": ["app"],
+            "services": ["services"],
+            "charts": ["charts"]
+        },
+        "types": ["vite/client", "jquery", "jest", "@emotion/react/types/css-prop"]
+    },
+    "include": ["src/**/*"]
+}

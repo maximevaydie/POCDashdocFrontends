@@ -1,0 +1,76 @@
+name: Frontend tests
+
+on:
+  workflow_call:
+    inputs:
+      run_if:
+        type: boolean
+        required: true
+
+jobs:
+  test:
+    if: ${{ inputs.run_if }}
+
+    runs-on: runs-on,runner=2cpu-linux-x64,run-id=${{ github.run_id }}
+
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          # By default, if the event that triggered the workflow is a pull_request event, the ref for the checkout action is the merge commit SHA. We want the actual commit SHA
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: "package.json"
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache Yarn Dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-frontend-${{ hashFiles('yarn.lock') }}-${{ hashFiles('dashdoc-js-utils/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-frontend-
+
+      - name: Install dependencies
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: TypeScript check
+        run: |
+          NODE_OPTIONS="--max-old-space-size=7168"
+          yarn workspace @dashdoc/core run tsc --noEmit
+          yarn workspace @dashdoc/web-core run tsc --noEmit
+          yarn workspace @dashdoc/web-common run tsc --noEmit
+          yarn workspace @dashdoc/web-ui run tsc --noEmit
+          yarn workspace @dashdoc/web-stories run tsc --noEmit
+          yarn workspace @dashdoc/web-flow run tsc --noEmit
+          yarn workspace @dashdoc/web-wam run tsc --noEmit
+          yarn workspace @dashdoc/frontend run tsc --noEmit
+
+      - name: Run frontend tests
+        id: frontend-tests
+        run: |
+          yarn workspace @dashdoc/core run jest --ci --runInBand --testResultsProcessor="jest-junit"
+          yarn workspace @dashdoc/web-core run jest --ci --runInBand --testResultsProcessor="jest-junit"
+          yarn workspace @dashdoc/web-common run jest --ci --runInBand --testResultsProcessor="jest-junit"
+          yarn workspace @dashdoc/web-ui run jest --ci --runInBand --testResultsProcessor="jest-junit"
+          yarn workspace @dashdoc/web-flow run jest --ci --runInBand --testResultsProcessor="jest-junit"
+          yarn workspace @dashdoc/web-wam run jest --ci --runInBand --testResultsProcessor="jest-junit"
+          yarn workspace @dashdoc/frontend run jest --ci --runInBand --testResultsProcessor="jest-junit"
+
+      - name: Publish test report
+        if: ${{ !cancelled() && steps.frontend-tests.result != 'skipped' }}
+        uses: mikepenz/action-junit-report@ac30be7acb0a361e5492575ab42e47fcadec4928
+        with:
+          report_paths: "**/junit.xml"
+          detailed_summary: true
+          include_passed: false
+          annotate_only: true

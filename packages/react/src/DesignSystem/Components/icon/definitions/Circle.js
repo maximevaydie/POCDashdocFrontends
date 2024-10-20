@@ -1,0 +1,107 @@
+"use strict";
+
+export default {
+    Circle: [
+        "circle",
+        24,
+        24,
+        [
+            {
+                fill: "none",
+                stroke: "#000000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+        ],
+        ["M0.750 12.000 A11.250 11.250 0 1 0 23.250 12.000 A11.250 11.250 0 1 0 0.750 12.000 Z"],
+    ],
+    DottedCircle: [
+        "cursor-select-circle",
+        24,
+        24,
+        [
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+            {
+                fill: "none",
+                stroke: "#000",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "stroke-width": "1.5",
+            },
+        ],
+        [
+            "M22.284,16.706a11.1,11.1,0,0,1-1.18,2.032",
+            "M16.938,22.235a7.314,7.314,0,0,1-1.083.459,7.455,7.455,0,0,1-1.125.344",
+            "M9.292,23.038a7.49,7.49,0,0,1-1.125-.344,7.314,7.314,0,0,1-1.083-.459",
+            "M2.918,18.739a11.132,11.132,0,0,1-1.179-2.033",
+            "M.8,11.348a11.1,11.1,0,0,1,.4-2.315",
+            "M3.924,4.323a12.406,12.406,0,0,1,1.8-1.518",
+            "M10.835 0.945L12.011 0.883 13.187 0.945",
+            "M18.3,2.805A12.452,12.452,0,0,1,20.1,4.323",
+            "M22.819,9.033a11.039,11.039,0,0,1,.4,2.315",
+        ],
+    ],
+};

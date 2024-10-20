@@ -1,0 +1,13 @@
+{
+  "name": "@dashdoc/services",
+  "type": "module",
+  "description": "Service package for Dashdoc's API services or external services",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test script specified\" && exit 1",
+    "test:watch": "echo \"Error: no test watch script specified\" && exit 1"
+  },
+  "dependencies": {
+    "tsconfig": "*"
+  }
+}

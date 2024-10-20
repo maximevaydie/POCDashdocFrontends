@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap");
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.page-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.map-canvas,
+#map-carriers {
+    height: 500px;
+}
+
+.app {
+    padding-top: 75px;
+}
+
+.carrier-list-container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+}
+
+.background-map {
+    height: 100%;
+}
+
+.row.messages {
+    margin-top: 75px;
+}
+
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+    margin-top: -2px;
+}
+
+.navbar.navbar-inverse {
+    background-color: #3b64f4;
+    border-color: #1a46e0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #0026ae;
+}
+
+.navbar-inverse .navbar-text {
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.navbar-inverse .navbar-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.map-canvas {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.fake-input {
+    padding: 7px 0;
+}
+
+.no-border-radius {
+    border-radius: 0;
+}
+
+.small-spacer,
+.spacer-sm {
+    margin-top: 15px;
+}
+
+.spacer {
+    margin-top: 20px;
+}
+
+.spacer-xs {
+    margin-top: 10px;
+}
+
+.spacer-xl {
+    margin-top: 50px;
+}
+
+.spacer-xxl {
+    margin-top: 200px;
+}
+
+.left-spacer {
+    margin-left: 10px;
+}
+
+.right-spacer {
+    margin-right: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* PUBLIC MARKER */
+.nearby-markers {
+    width: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-contact {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.text.legal p {
+    font-size: 16px;
+}
+
+.footer {
+    padding: 25px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .nav-link {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.footer-logo {
+    height: 30px;
+}
+
+.footer-dashdoc-logo {
+    height: 20px;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 0;
+}
+
+.footer-bottom {
+    height: 100px;
+    background-color: #333;
+    line-height: 100px;
+    text-align: center;
+}
+
+.footer-links {
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: normal;
+    display: inline-block;
+}
+
+.footer-links a {
+    color: #fff;
+}
+
+/* TRAINING SPECIFIC CSS */
+.training .navbar.navbar-inverse:not(.sidebar) {
+    background-color: #ff9400;
+    border-color: #d47c08;
+}
+
+.training .navbar-inverse:not(.sidebar) .navbar-nav > .active > a,
+.training .navbar-inverse:not(.sidebar) .navbar-nav > .active > a:focus,
+.training .navbar-inverse:not(.sidebar) .navbar-nav > .active > a:hover {
+    background-color: #d47c08;
+}
+
+.__react_component_tooltip.show {
+    opacity: 1 !important;
+  }

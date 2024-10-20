@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html translate="no">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex">
+
+        <title>Gestion des transports · Dashdoc</title>
+
+        <!-- Favicons -->
+        <link rel="icon" href="/assets/tms/favicon.ico" sizes="48x48" ><!-- REVISED (Aug 11, 2023)! -->
+        <link rel="icon" href="/assets/tms/favicon.svg" sizes="any" type="image/svg+xml"><!-- REVISED (Aug 11, 2023)! -->
+        <link rel="apple-touch-icon" href="/assets/tms/apple-touch-icon.png"/>
+        <link rel="manifest" href="/assets/tms/site.webmanifest" />
+
+        <!-- CSS -->
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Grape+Nuts"
+            rel="stylesheet"
+        />
+
+        <!-- FontAwesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+            integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
+            crossorigin="anonymous"
+        />
+
+        <!-- Leaflet -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+            integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+            crossorigin=""
+        />
+
+        <link rel="stylesheet" href="/assets/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/assets/css/main.css"/>
+        <link rel="stylesheet" href="/assets/css/app.css"/>
+
+        <!-- JS -->
+        <script src="/assets/js/jquery-2.2.4.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+
+        <script>
+            if (typeof window.global === "undefined") {
+                window.global = window;
+            }
+        </script>
+
+        <!-- Intercom -->
+        <script>
+            (function () {
+                const APP_ID = "<%= VITE_INTERCOM_APP_ID %>";
+                window.intercomSettings = {
+                    app_id: APP_ID,
+                    hide_default_launcher: true,
+                };
+                (function () {
+                    var w = window;
+                    var ic = w.Intercom;
+                    if (typeof ic === "function") {
+                        ic("reattach_activator");
+                        ic("update", w.intercomSettings);
+                    } else {
+                        var d = document;
+                        var i = function () {
+                            i.c(arguments);
+                        };
+                        i.q = [];
+                        i.c = function (args) {
+                            i.q.push(args);
+                        };
+                        w.Intercom = i;
+                        var l = function () {
+                            var s = d.createElement("script");
+                            s.type = "text/javascript";
+                            s.async = true;
+                            s.src = "https://widget.intercom.io/widget/" + APP_ID;
+                            var x = d.getElementsByTagName("script")[0];
+                            x.parentNode.insertBefore(s, x);
+                        };
+                        if (document.readyState === "complete") {
+                            l();
+                        } else if (w.attachEvent) {
+                            w.attachEvent("onload", l);
+                        } else {
+                            w.addEventListener("load", l, false);
+                        }
+                    }
+                })();
+            })();
+        </script>
+
+        <!-- Chargebee -->
+        <script
+            defer
+            src="https://js.chargebee.com/v2/chargebee.js"
+            data-cb-site="<%= VITE_CHARGEBEE_APP %>"
+        ></script>
+
+        <% if (MODE==="prod") { %>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65108268-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-65108268-4");
+        </script>
+        <!-- Screeb -->
+        <script type="text/javascript">
+            (function (s,c,r,ee,b) {
+              s['ScreebObject']=r;s[r]=s[r]||function(){(s[r].q=s[r].q||[]).push(arguments)};
+              b=c.createElement('script');b.type='text/javascript';
+              b.id=r;b.src=ee;b.async=1;c.getElementsByTagName("head")[0].appendChild(b);
+            }(window,document,'Screeb','https://t.screeb.app/tag.js'));
+          </script>
+        <% } else { %>
+        <script type="text/javascript">
+            window.Screeb = function() {
+                console.log("Not loading Screeb")
+            };
+        </script>
+        <% } %>
+
+        <% if (MODE==="prod" || MODE==="staging") { %>
+        <!-- Segment -->
+        <script>
+            !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)
+                if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");
+                else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify",
+                "reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware",
+                "setAnonymousId","addDestinationMiddleware"];
+                analytics.factory=function(e){return function()
+                {var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};
+                for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}
+                analytics.load=function(key,e){var t=document.createElement("script")
+                ;t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";
+                var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);
+                analytics._loadOptions=e};analytics._writeKey="<%= VITE_SEGMENT_KEY %>";;analytics.SNIPPET_VERSION="4.15.3";
+                analytics.load("<%= VITE_SEGMENT_KEY %>");
+            }}();
+        </script>
+        <% } else { %>
+            <script type="text/javascript">
+                window.Screeb = function() {
+                    console.log("Not loading Segment")
+                };
+            </script>
+        <% } %>
+        <script type="module" src="/src/app/index.tsx"></script>
+    </head>
+
+    <body
+        class="app-body <%if (MODE==='training' ) {%>training<%}%>"
+    >
+        <div id="react-app"></div>
+        <div id="react-app-modal-root"></div>
+
+        <div style="display: none" id="ie-warning" class="container">
+            <div class="row spacer">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="well">
+                        <h3 class="no-margin-top">Veuillez utiliser un navigateur plus récent</h3>
+                        <p>
+                            Dashdoc ne fonctionne pas sur Internet Explorer. Veuillez utiliser un
+                            navigateur récent et sécurisé comme
+                            <a href="https://www.mozilla.org/firefox/new/">Firefox</a>,
+                            <a href="https://www.google.com/chrome/">Google Chrome</a>,
+                            <a href="https://www.microsoft.com/edge">Edge</a> or
+                            <a href="https://www.apple.com/safari/">Safari</a>.
+                        </p>
+                        <p>
+                            <a
+                                href="https://www.01net.com/actualites/microsoft-annonce-la-fin-du-support-d-internet-explorer-et-de-l-ancienne-version-d-edge-1965246.html"
+                                >Cliquez ici pour en savoir plus sur la fin du support d'Internet
+                                Explorer.</a
+                            >
+                        </p>
+
+                        <h3 class="spacer-xl">Please use a recent browser</h3>
+                        <p>
+                            Dashdoc does not support Internet Explorer. Please use a recent and
+                            secure browser like
+                            <a href="https://www.mozilla.org/firefox/new/">Firefox</a>,
+                            <a href="https://www.google.com/chrome/">Google Chrome</a>,
+                            <a href="https://www.microsoft.com/edge">Edge</a> or
+                            <a href="https://www.apple.com/safari/">Safari</a>.
+                        </p>
+                        <p>
+                            <a
+                                href="https://www.theverge.com/2021/5/19/22443997/microsoft-internet-explorer-end-of-support-date"
+                                >Click here to learn more about why Internet Explorer is not
+                                supported.</a
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <% if (MODE==="prod") { %>
+        <!-- SessionRewind -->
+        <script>
+            !function (o) {
+                var w = window;
+                w.SessionRewindConfig = o;
+                var f = document.createElement("script");
+                f.async = 1, f.crossOrigin = "anonymous",
+                  f.src = "https://rec.sessionrewind.com/srloader.js";
+                var g = document.getElementsByTagName("head")[0];
+                g.insertBefore(f, g.firstChild);
+              }({
+                apiKey: 'UfJJsLhWb78R2xiMTf6Jy1LjsZ3psBnB7rGBHfLx', // pragma: allowlist secret
+                // Start recording immediately upon page load.
+                // If not set (or set to false) recording will need to be started later via window.sessionRewind.startSession()
+                startRecording: false,
+              });
+        </script>
+        <% } %>
+
+        <script>
+            function isIE() {
+                return !!window.navigator.userAgent.match(/MSIE|Trident/);
+            }
+
+            if (isIE()) {
+                document.getElementById("react-app").setAttribute("style", "display: none;");
+                document.getElementById("ie-warning").setAttribute("style", "display: inherit;");
+            } else {
+                document.getElementById("ie-warning").remove();
+            }
+        </script>
+
+        <script>
+            // Disable auto-zoom on iOS inputs
+            // from https://stackoverflow.com/a/57527009/1418983
+            const addMaximumScaleToMetaViewport = () => {
+                const el = document.querySelector('meta[name=viewport]');
+
+                if (el !== null) {
+                    let content = el.getAttribute('content');
+                    let re = /maximum\-scale=[0-9\.]+/g;
+
+                    if (re.test(content)) {
+                        content = content.replace(re, 'maximum-scale=1.0');
+                    } else {
+                        content = [content, 'maximum-scale=1.0'].join(', ')
+                    }
+
+                    el.setAttribute('content', content);
+                }
+            };
+
+            const disableIosTextFieldZoom = addMaximumScaleToMetaViewport;
+
+            // https://stackoverflow.com/questions/9038625/detect-if-device-is-ios/9039885#9039885
+            const checkIsIOS = () => {
+                return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            };
+
+            if (checkIsIOS()) {
+                disableIosTextFieldZoom();
+            }
+        </script>
+    </body>
+</html>
